@@ -1,71 +1,15 @@
-body{ background-color: #000000;}
 
-/*HEADER______________________________________________________________________________________________________________*/
-.header{ padding-top: 100px; padding-bottom: 50px}
-.header, p, .title-desc, .title {color: white;}
-.header {font-size: 16px; font-family: 'Roboto Light', sans-serif;}
-
-/*TITLE______________________________________________________________________________________________________________*/
-.title, .title-desc {font-size: 18px; font-family: 'Roboto Light', sans-serif; letter-spacing: 1px;}
-.title-desc, .title-desc-label, .header {text-align: end;}
-.title-label, .title-desc-label {color:grey; font-size: 10px; font-family: 'Roboto Light', sans-serif; letter-spacing: 1px; text-transform: uppercase;}
-
-
-/*PARAGRAPH______________________________________________________________________________________________________________*/
-.section{ padding-left: 100px; padding-right: 100px}
-.paragraph, .paragraph-desc{ padding-top: 100px; padding-bottom: 100px;}
-.paragraph-desc{text-align: end;}
-p{ font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
-.paragraph-label{padding-top:5px; color:grey; font-size: 10px; font-family: 'Roboto Light', sans-serif; letter-spacing: 1px;}
-
-/*BORDER______________________________________________________________________________________________________________*/
-hr.solid {border-top: 0.5px solid rgb(255, 255, 255);}
-
-/*LINK______________________________________________________________________________________________________________*/
-a { color: #ffffff; text-decoration: none;}
-a:link { text-decoration: none;}
-a:visited { text-decoration: none;}
-a:active { text-decoration: none;}
-a:hover { color: #ffffff; text-decoration: underline; cursor:pointer;}
-
-/*IMG______________________________________________________________________________________________________________*/
-img{object-fit: scale-down;}
-
-/*INDEX______________________________________________________________________________________________________________*/
-/*.hover figure img { -webkit-filter: grayscale(100%) blur(3px); filter: grayscale(100%) blur(3px); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}*/
-/*.hover figure:hover img { -webkit-filter: grayscale(0) blur(0); filter: grayscale(0) blur(0);}*/
-
-.index{ }
-.index:hover > div { -webkit-filter: grayscale(100%) blur(3px); filter: grayscale(100%) blur(3px); -webkit-transition: .3s ease-in-out; transition: .3s ease-in-out;}
-.index:hover > div:hover { -webkit-filter: grayscale(0) blur(0); filter: grayscale(0) blur(0);}
-
-
-/*INPUT______________________________________________________________________________________________________________*/
-#ti1 { width: 100%; border: none; padding-top: 15px; padding-bottom: 35px; padding-left: 15px;
+#viz3-textForm, #viz3-textForm2{ width: 100%; border: none; padding-top: 15px; padding-bottom: 0px; padding-left: 15px;
     border-bottom: 0.1px solid rgba(255, 255, 255, 0.8); background-color: rgba(255, 255, 255, 0.05); color: white;
-    font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
-
-/*BUTTON______________________________________________________________________________________________________________*/
-button { background-color: transparent; border: none; color: white; padding-top: 25px;
-    font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
-button:hover{ text-decoration: underline; cursor:pointer;}
-
-/*RADIO______________________________________________________________________________________________________________*/
-.container{ padding-top:50px; padding-bottom: 50px;
-    font-size: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif; color: white;
-    display: flex; justify-content: center; font-size: 12px; alignment: center; position: relative;}
-.desc{ font-size: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif; color: white;
-    display: flex; justify-content: center; font-size: 12px; alignment: center; position: relative;}
-.center{ display: flex; justify-content: center; alignment: center; position: relative;}
-.option-input { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; position: relative; outline: none;
-    top: 10px; right: 10px; bottom: 10px; left: 10px; height: 30px; width: 30px;position: center;
-    transition: all 0.15s ease-out 0s;
-    border-style: solid; border-color: #ffffff; color: #fff; cursor: pointer; display: inline-block; margin-right: 15px;}
-.option-input:checked { border-style: dotted; }
-.option-input.radio { border-radius: 100%;}
-.option-input.radio::after { border-radius: 100%;}
+    font-size: 15px; line-height: 20px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
 
 
-/*TOOTLTIP______________________________________________________________________________________________________________*/
-.rect_tooltip_text{ font-size: 15px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
-.rect_tooltip_letter{ font-size: 50px; line-height: 30px; letter-spacing: 1px; font-family: 'Roboto Bold', sans-serif;}
+.textform { width: 100%; border: none; padding-top: 15px; padding-bottom: 0px; padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0); color: gray;
+    font-size: 12px; line-height: 20px; letter-spacing: 1px; font-family: 'Roboto Light', sans-serif;}
+
+.mySliders{ width: 150px; background-color: transparent; -webkit-appearance: none;}
+.mySliders:focus { outline: none;}
+.mySliders::-webkit-slider-runnable-track { background: rgba(255, 255, 255, 0.3); height: 3px; -webkit-appearance: none; cursor: pointer;}
+.mySliders::-webkit-slider-thumb { width: 15px; height: 15px; background: rgba(255, 255, 255, 1); cursor: pointer;
+    -webkit-appearance: none; margin-top: -6px; border-radius: 8px; }
