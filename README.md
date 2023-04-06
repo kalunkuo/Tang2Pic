@@ -1,5 +1,5 @@
 # Tang2Pic
-Interpreting Poems from Tang Dynasty
+## Interpreting Poems from Tang Dynasty
 
 
 Tang Poetry is a literary tradition that emerged during China's Tang dynasty and is characterized by its distinctive style and rich poetic tradition. Considered the Golden Age of Chinese poetry, the Tang dynasty produced over 48,900 poems written by more than 2,200 authors, which were compiled into the Quan Tangshi. During this period, poetry played a vital role in social life, with scholars required to master the art for civil service exams. However, poetry was not limited to the elite and was accessible to everyone, resulting in a vast record of poetry and poets that survives today. Li Bai and Du Fu, two of the most famous poets of the era, continue to be celebrated for their contributions to the Tang Poetry canon.
@@ -9,5 +9,4 @@ To honor this rich literary tradition, a web application has been developed that
 
 
 Launch the site at: https://www.kuomaje.com/3/3.html
-
-Learn more at: https://kuomaje.cargo.site/T9
+<br>Learn more at: https://kuomaje.cargo.site/T9
